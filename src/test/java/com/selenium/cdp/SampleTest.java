@@ -6,6 +6,7 @@ public class SampleTest extends BaseTest{
 
     @Test
     public void validateRequestIntercept(){
+        // Add sample test here
 
     }
 }
