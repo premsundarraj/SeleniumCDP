@@ -9,19 +9,17 @@ import org.openqa.selenium.devtools.v85.fetch.Fetch;
 import java.util.Optional;
 
 public class NetworkIntercept {
-    protected static DevTools devTool;
+    public static DevTools devTool;
 
-    public void createDevToolSession(){
+    public static void createDevToolSession() {
         WebDriver driver = BaseTest.getDriver();
         devTool = ((ChromeDriver) driver).getDevTools();
         devTool.createSession();
     }
 
-    public void enableFetch(){
-        devTool.send(Fetch.enable(Optional.empty(),Optional.empty()));
+    public static void enableFetch() {
+        devTool.send(Fetch.enable(Optional.empty(), Optional.empty()));
     }
-
-
 
 
 }
