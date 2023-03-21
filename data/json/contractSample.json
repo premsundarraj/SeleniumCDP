@@ -1,0 +1,262 @@
+{
+  "data": [
+    {
+      "contract": {
+        "id": "c3bd06cc-cf3c-4ccd-a34f-2eef05ad16aa"
+      },
+      "divisionCommodities": [
+        {
+          "division": "223",
+          "commodities": [
+            "563"
+          ]
+        },
+        {
+          "division": "014",
+          "commodities": [
+            "563"
+          ]
+        }
+      ]
+    },
+    {
+      "contract": {
+        "id": "ef07c34f-eaea-4839-869f-c78037d08788"
+      },
+      "divisionCommodities": [
+        {
+          "division": "531",
+          "commodities": [
+            "563"
+          ]
+        },
+        {
+          "division": "708",
+          "commodities": [
+            "563"
+          ]
+        },
+        {
+          "division": "014",
+          "commodities": [
+            "563"
+          ]
+        }
+      ]
+    }
+  ],
+  "included": {
+    "contracts": [
+      {
+        "id": "c3bd06cc-cf3c-4ccd-a34f-2eef05ad16aa",
+        "date": {
+          "start": "2021-02-17",
+          "end": "2023-03-04"
+        },
+        "vendor": "555222",
+        "description": "OCT_CTR",
+        "performance": {
+          "type": "EDLC",
+          "date": {
+            "start": "2021-02-17",
+            "end": "2023-03-04"
+          }
+        },
+        "type": "OFF_INVOICE",
+        "status": "KROGER_REVIEW",
+        "externalId": "2201236",
+        "itemInfos": [
+          {
+            "item": {
+              "gtin": {
+                "case": "1002430003103",
+                "consumer": "103"
+              }
+            },
+            "priceType": "Amount Off",
+            "locationInfos": [
+              {
+                "location": {
+                  "type": "",
+                  "number": "014",
+                  "name": ""
+                },
+                "allowance": {
+                  "value": 2,
+                  "date": {
+                    "start": "2023-03-14",
+                    "end": "2023-03-14"
+                  }
+                },
+                "vendorNumber": "555222"
+              }
+            ]
+          },
+          {
+            "item": {
+              "gtin": {
+                "case": "1002430003103",
+                "consumer": "103"
+              }
+            },
+            "priceType": "Amount Off",
+            "locationInfos": [
+              {
+                "location": {
+                  "type": "",
+                  "number": "014",
+                  "name": ""
+                },
+                "allowance": {
+                  "value": 2,
+                  "date": {
+                    "start": "2023-03-14",
+                    "end": "2023-03-14"
+                  }
+                },
+                "vendorNumber": "555222"
+              }
+            ]
+          },
+          {
+            "item": {
+              "gtin": {
+                "case": "1002430003103",
+                "consumer": "103"
+              }
+            },
+            "priceType": "Amount Off",
+            "locationInfos": [
+              {
+                "location": {
+                  "type": "",
+                  "number": "014",
+                  "name": ""
+                },
+                "allowance": {
+                  "value": 2,
+                  "date": {
+                    "start": "2023-03-14",
+                    "end": "2023-03-14"
+                  }
+                },
+                "vendorNumber": "555222"
+              }
+            ]
+          }
+        ],
+        "versionKey": "1edc272b-46a7-68b1-a9fb-cba7e03c09b9",
+        "transactionType": "per-unit",
+        "deliveryType": "DSD"
+      },
+      {
+        "id": "ef07c34f-eaea-4839-869f-c78037d08788",
+        "date": {
+          "start": "2021-06-29",
+          "end": "2023-02-12"
+        },
+        "vendor": "555222",
+        "description": "OCT_CTR",
+        "performance": {
+          "type": "SALES_PLAN",
+          "date": {
+            "start": "2021-06-29",
+            "end": "2023-02-12"
+          }
+        },
+        "type": "SBT_OFF_INVOICE",
+        "status": "KROGER_REVIEW",
+        "externalId": "2201230",
+        "itemInfos": [
+          {
+            "item": {
+              "gtin": {
+                "case": "1002430003103",
+                "consumer": "103"
+              }
+            },
+            "priceType": "Amount Off",
+            "locationInfos": [
+              {
+                "location": {
+                  "type": "",
+                  "number": "014",
+                  "name": ""
+                },
+                "allowance": {
+                  "value": 2,
+                  "date": {
+                    "start": "2023-03-14",
+                    "end": "2023-03-14"
+                  }
+                },
+                "vendorNumber": "555222"
+              }
+            ]
+          },
+          {
+            "item": {
+              "gtin": {
+                "case": "1002430003103",
+                "consumer": "103"
+              }
+            },
+            "priceType": "Amount Off",
+            "locationInfos": [
+              {
+                "location": {
+                  "type": "",
+                  "number": "014",
+                  "name": ""
+                },
+                "allowance": {
+                  "value": 2,
+                  "date": {
+                    "start": "2023-03-14",
+                    "end": "2023-03-14"
+                  }
+                },
+                "vendorNumber": "555222"
+              }
+            ]
+          },
+          {
+            "item": {
+              "gtin": {
+                "case": "1002430003103",
+                "consumer": "103"
+              }
+            },
+            "priceType": "Amount Off",
+            "locationInfos": [
+              {
+                "location": {
+                  "type": "",
+                  "number": "014",
+                  "name": ""
+                },
+                "allowance": {
+                  "value": 2,
+                  "date": {
+                    "start": "2023-03-14",
+                    "end": "2023-03-14"
+                  }
+                },
+                "vendorNumber": "555222"
+              }
+            ]
+          }
+        ],
+        "versionKey": "1edc272b-46a7-68ab-a9fb-cba7e03c09b9",
+        "transactionType": "per-unit",
+        "deliveryType": "DSD"
+      }
+    ]
+  },
+  "meta": {
+    "page": {
+      "offset": 0,
+      "size": 25
+    }
+  }
+}
