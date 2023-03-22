@@ -125,59 +125,6 @@ public class SampleTest extends BaseTest {
             }
         });
 
-        /*NetworkInterceptor interceptor2 = new NetworkInterceptor(
-                driver,
-                Route.matching(request -> true)
-                        .to(() -> request -> new HttpResponse()
-                                .setStatus(500)));*/
-
-       /* Filter filter = next ->{
-            return req -> {
-                HttpResponse res = next.execute(req);
-                res.addHeader("Content-Type","application/json");
-                res.addHeader("X-Dns-Prefetch-Control","off");
-                res.addHeader("X-Frame-Options","SAMEORIGIN");
-                res.addHeader("Strict-Transport-Security","max-age=15724800; includeSubDomains");
-                res.addHeader("X-Download-Options","noopen");
-                res.addHeader("Cache-Control","no-store, no-cache, must-revalidate, proxy-revalidate");
-                res.addHeader("Pragma","no-cache");
-                res.addHeader("Expires","0");
-                res.addHeader("X-Content-Type-Options","nosniff");
-                res.addHeader("X-Xss-Protection","1; mode=block");
-                res.addHeader("Vary","Origin");
-                res.addHeader("Access-Control-Allow-Origin","https://ngpp-ui-test.ngpp.rch-cdc-axnonprod.kroger.com");
-                res.addHeader("Access-Control-Expose-Headers","x-kroger-records-affected");
-                res.addHeader("X-Kroger-Records-Affected","0");
-                res.setStatus(500);
-                res.setStatus(200);
-                System.out.println(res.getStatus());
-                InputStream input = null;
-                try {
-                    input = new FileInputStream("data/json/contractSample.json");
-                } catch (FileNotFoundException e) {
-                    throw new RuntimeException(e);
-                }
-                InputStream finalInput = input;
-                System.out.println("final Inout: "+finalInput.toString());
-                Supplier<InputStream> stream= new Supplier<InputStream>() {
-                    @Override
-                    public InputStream get() {
-                        return finalInput;
-                    }
-                };
-                res.setContent(stream);
-                Supplier<InputStream> test = res.getContent();
-
-                //res.setContent(inputStream);
-                System.out.println(res.getContent().toString());
-                return res;
-            };
-        };*/
-
-       // try (NetworkInterceptor interceptor = new NetworkInterceptor(driver,filter)) {
-
-        //}
-
         driver.findElement(By.xpath("//*[@id=\"page\"]/ng-component/contracts-ui-element/lib-contract-list-view/div/div/lib-contracts-sliding-panel/kds-sliding-panel/div/div/div/div[3]/ers-input-text-box/div/div/input")).sendKeys("12");
 
         driver.findElement(By.xpath("//*[@id=\"page\"]/ng-component/contracts-ui-element/lib-contract-list-view/div/div/lib-contracts-sliding-panel/kds-sliding-panel/div/div/footer/kds-button[2]/button")).click();
