@@ -55,10 +55,10 @@ public class SampleTest extends BaseTest {
 
     @Test
     public void validateResponseIntercept() throws InterruptedException, IOException {
-        driver.get("https://ngpp-ui-test.ngpp.rch-cdc-axnonprod.kroger.com/contracts");
+        driver.get("");
         Thread.sleep(3000);
-        driver.findElement(By.xpath("//*[@id=\"KSWUSER\"]")).sendKeys("NGPCM2");
-        driver.findElement(By.xpath("//*[@id=\"PWD\"]")).sendKeys("lQlptWFGTs6MilY8kWFY5ZnXjMzf3N");
+        driver.findElement(By.xpath("//*[@id=\"KSWUSER\"]")).sendKeys("");
+        driver.findElement(By.xpath("//*[@id=\"PWD\"]")).sendKeys("");
         driver.findElement(By.xpath("//*[@id=\"loginForm\"]/ul/li[5]/input")).click();
         Thread.sleep(10000);
 
